@@ -1,0 +1,14 @@
+variant,axis,SP%,ASP%,dSP%,dSN%,meanASP,dASP_vs_full
+full-method,baseline,81.83,18.17,19.4,41.0,18.52,0.0
+kmeans,algorithm,82.13,17.87,10.51,22.0,18.0,-0.3
+spectral,algorithm,81.82,18.18,20.0,44.0,18.13,0.01
+greedy-union,algorithm,80.94,19.06,18.56,41.0,19.13,0.89
+random-partition,algorithm,81.2,18.79,19.72,44.3,18.88,0.62
+cosine,distance,80.97,19.03,20.84,45.0,18.64,0.86
+hamming,distance,81.92,18.08,11.29,23.0,18.19,-0.09
+overlap,distance,80.88,19.12,19.76,44.0,19.22,0.95
+complete,linkage,81.97,18.03,19.58,37.0,18.22,-0.14
+single,linkage,80.89,19.11,20.42,44.0,19.16,0.94
+ward,linkage,82.21,17.79,10.15,21.0,17.95,-0.38
+no-two-phase,structure,81.11,18.89,18.74,38.0,19.21,0.72
+no-intersection-sub,structure,82.12,17.88,10.45,17.0,18.04,-0.29

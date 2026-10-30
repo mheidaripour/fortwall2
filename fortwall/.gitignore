@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+.venv-linux/
+venv/
+
+# Python build / cache artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Generated deployment artifacts (produced by `fortwall switch`)
+generated/
+
+# Local backups of system config captured before deployment
+backups/
+
+# Compiled seccomp binaries
+native/seccomp/intrsec
+native/seccomp/intr-seccomp

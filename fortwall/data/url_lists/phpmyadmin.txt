@@ -1,0 +1,89 @@
+Arbitrary: execve, execveat, fork, vfork, clone, ptrace
+Memory: mprotect, mmap, mremap, remap_file_pages
+Privilege: chmod, setuid, setgid, setreuid
+Networking: socket, bind, connect, listen, accept, accept4
+Total Sensitive Syscalls: [56, 57, 58, 59, 101, 322, 9, 10, 25, 216, 90, 105, 106, 113, 41, 42, 43, 49, 50, 288]
+Intersection of the associated system call numbers for all the sets: {0, 1, 257, 3, 4, 5, 6, 262, 8, 9, 10, 11, 13, 14, 20, 25, 28, 39, 302, 186, 60, 62, 72, 202, 79, 217, 99, 229, 231, 234}
+Intersection Length 30
+URLs with exact intersection set: 672
+Total number of URLs: 1219
+Category percentages: [35.110747, 0.164069, 55.127153, 0.246103, 0.656276, 0.082034, 0.902379, 1.558655, 0.328138, 0.164069, 0.656276, 0.328138, 1.886792, 0.082034, 0.246103, 0.082034, 0.328138, 0.164069, 0.082034, 0.082034, 0.082034, 0.164069, 0.082034, 0.164069, 0.082034, 0.082034, 0.082034, 0.082034, 0.082034, 0.164069, 0.246103, 0.082034, 0.082034, 0.082034, 0.082034, 0.082034]
+the group with the highest percentage: 55.127153
+Category: 0 Percentage: 35.110747
+Associated numbers: 91 percentage 0.2733
+Category: 2 Percentage: 55.127153
+Associated numbers: 30 percentage 0.0901
+Sum of the percentages covered with total number of pool 2:  90.2379
+Number of new categories after removing the high percentage categories: 34
+Superset 1: {7, 12, 15, 16, 17, 18, 19, 21, 22, 23, 24, 29, 30, 32, 33, 35, 293, 38, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 307, 61, 318, 63, 67, 73, 77, 80, 82, 83, 87, 88, 89, 90, 95, 98, 102, 104, 105, 107, 108, 112, 115, 132, 143, 144, 145, 149, 150, 203, 219, 228}
+length of the superset: 66
+Superset 2: {67, 228, 30, 149, 150, 23, 29, 318, 63}
+length of the superset: 9
+Superset 3: {12, 63}
+length of the superset: 2
+Superset 4: {38, 15}
+length of the superset: 2
+Superset 5: {318}
+length of the superset: 1
+Cluster 1: 29 sets
+Cluster 2: 1 sets
+Cluster 3: 2 sets
+Cluster 4: 1 sets
+Cluster 5: 1 sets
+Cluster 1: 82 urls
+Cluster 2: 3 urls
+Cluster 3: 24 urls
+Cluster 4: 8 urls
+Cluster 5: 2 urls
+Cluster 1 standard deviation: 20.2
+Cluster 2 standard deviation: 0.0
+Cluster 3 standard deviation: 0.5
+Cluster 4 standard deviation: 0.0
+Cluster 5 standard deviation: 0.0
+Cluster 1: Max syscalls to add to any set: 19.22% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 2: Max syscalls to add to any set: 0.00% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 3: Max syscalls to add to any set: 0.30% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 4: Max syscalls to add to any set: 0.00% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 5: Max syscalls to add to any set: 0.00% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 0: 6.73 urls
+Cluster 1: 0.25 urls
+Cluster 2: 1.97 urls
+Cluster 3: 0.66 urls
+Cluster 4: 0.16 urls
+Superset 1:  Length of the superset: 66 and the percentage : 28.83 
+Superset 2:  Length of the superset: 9 and the percentage : 11.71 
+Superset 3:  Length of the superset: 2 and the percentage : 9.61 
+Superset 4:  Length of the superset: 2 and the percentage : 9.61 
+Superset 5:  Length of the superset: 1 and the percentage : 9.31 
+Cluster:428
+Cluster URL Percentage: 35.11
+Cluster:672
+Cluster URL Percentage: 55.13
+Cluster:82
+Cluster URL Percentage: 6.73
+Cluster:3
+Cluster URL Percentage: 0.25
+Cluster:24
+Cluster URL Percentage: 1.97
+Cluster:8
+Cluster URL Percentage: 0.66
+Cluster:2
+Cluster URL Percentage: 0.16
+{0: {9, 10, 105, 41, 42, 43, 49, 50, 56, 25}, 1: {9, 10, 25}, 2: {9, 10, 105, 41, 42, 43, 49, 50, 56, 25, 90}, 3: {9, 10, 25}, 4: {9, 10, 25}, 5: {9, 10, 25}, 6: {9, 10, 25}}
+Security Metric for Cluster 0(SN%): 50.0
+Cluster 0 SP%: 72.67
+Security Metric for Cluster 1(SN%): 85.0
+Cluster 1 SP%: 90.99
+Security Metric for Cluster 2(SN%): 45.0
+Cluster 2 SP%: 71.17
+Security Metric for Cluster 3(SN%): 85.0
+Cluster 3 SP%: 88.29
+Security Metric for Cluster 4(SN%): 85.0
+Cluster 4 SP%: 90.39
+Security Metric for Cluster 5(SN%): 85.0
+Cluster 5 SP%: 90.39
+Security Metric for Cluster 6(SN%): 85.0
+Cluster 6 SP%: 90.69
+STATISTICS FOR THE SYSFILTER
+SP% 62.46
+SN% 30.0

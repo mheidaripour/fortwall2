@@ -1,0 +1,26 @@
+# syntax=docker/dockerfile:1
+#
+# Thin wrapper over the imported Saphire VM rootfs (see docker/vm-to-image.sh).
+# This is the KNOWN-GOOD baseline: it inherits the VM's already-built PHP 7.1,
+# compiled extensions, installed apps and DB fixtures verbatim -- nothing is
+# recompiled. docker/Dockerfile is the from-scratch alternative, which can also
+# be rebuilt against other PHP versions.
+#
+# Build (after vm-to-image.sh has produced saphire-vm:orig):
+#   docker build --platform=linux/amd64 -t fortwall-lab -f docker/Dockerfile.vm .
+
+FROM --platform=linux/amd64 saphire-vm:orig
+
+# Overlay only the FortWall layer + data contract from this repo, so the local
+# Python package and artifacts take precedence over the VM's snapshot.
+# Paths mirror the VM's on-host layout; adjust if the VM used a different home.
+COPY fortwall /home/paper/fortwall
+COPY artifacts /home/paper/artifacts
+
+COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh || true
+
+EXPOSE 80 9000
+WORKDIR /home/paper
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["bash"]

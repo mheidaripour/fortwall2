@@ -1,0 +1,89 @@
+Arbitrary: execve, execveat, fork, vfork, clone, ptrace
+Memory: mprotect, mmap, mremap, remap_file_pages
+Privilege: chmod, setuid, setgid, setreuid
+Networking: socket, bind, connect, listen, accept, accept4
+Total Sensitive Syscalls: [56, 57, 58, 59, 101, 322, 9, 10, 25, 216, 90, 105, 106, 113, 41, 42, 43, 49, 50, 288]
+Intersection of the associated system call numbers for all the sets: {0, 1, 257, 3, 4, 5, 6, 262, 8, 9, 10, 11, 13, 14, 20, 25, 28, 39, 302, 186, 60, 62, 72, 202, 79, 217, 99, 229, 231, 234}
+Intersection Length 30
+URLs with exact intersection set: 2787
+Total number of URLs: 9360
+Category percentages: [48.012821, 29.775641, 0.021368, 0.608974, 0.053419, 3.621795, 3.66453, 1.666667, 2.15812, 0.438034, 2.510684, 0.566239, 0.032051, 0.181624, 0.651709, 0.053419, 0.021368, 0.021368, 0.010684, 0.202991, 0.042735, 0.074786, 0.106838, 0.021368, 0.106838, 0.181624, 0.021368, 0.010684, 0.08547, 0.160256, 0.010684, 0.021368, 0.160256, 0.138889, 0.096154, 0.288462, 0.042735, 0.064103, 0.074786, 0.128205, 0.010684, 0.267094, 0.074786, 0.021368, 0.042735, 0.010684, 0.138889, 0.010684, 0.117521, 0.096154, 0.042735, 0.064103, 0.032051, 0.010684, 0.010684, 0.010684, 0.064103, 0.064103, 0.021368, 0.128205, 0.096154, 0.128205, 0.053419, 0.042735, 0.010684, 0.021368, 0.010684, 0.032051, 0.010684, 0.021368, 0.021368, 0.042735, 0.053419, 0.010684, 0.010684, 0.021368, 0.010684, 0.064103, 0.042735, 0.064103, 0.042735, 0.010684, 0.010684, 0.042735, 0.064103, 0.010684, 0.010684, 0.042735, 0.064103, 0.021368, 0.021368, 0.042735, 0.010684, 0.010684, 0.042735, 0.021368, 0.021368, 0.032051, 0.021368, 0.053419, 0.010684, 0.021368, 0.010684, 0.021368, 0.010684, 0.010684, 0.042735, 0.042735, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.021368, 0.021368, 0.021368, 0.010684, 0.042735, 0.010684, 0.010684, 0.021368, 0.021368, 0.010684, 0.010684, 0.021368, 0.010684, 0.021368, 0.010684, 0.010684, 0.021368, 0.021368, 0.010684, 0.010684, 0.021368, 0.010684, 0.021368, 0.021368, 0.010684, 0.021368, 0.010684, 0.032051, 0.010684, 0.010684, 0.010684, 0.010684, 0.032051, 0.021368, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.021368, 0.021368, 0.021368, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.021368, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684, 0.010684]
+the group with the highest percentage: 48.012821
+Category: 0 Percentage: 48.012821
+Associated numbers: 80 percentage 0.2402
+Category: 1 Percentage: 29.775641
+Associated numbers: 30 percentage 0.0901
+Sum of the percentages covered with total number of pool 2:  77.78846200000001
+Number of new categories after removing the high percentage categories: 185
+Superset 1: {7, 12, 15, 16, 17, 18, 19, 21, 22, 23, 24, 29, 30, 32, 33, 35, 293, 38, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 307, 52, 54, 55, 53, 56, 59, 61, 318, 63, 67, 73, 77, 80, 82, 83, 84, 86, 87, 88, 89, 90, 95, 98, 102, 104, 105, 107, 108, 110, 112, 115, 132, 137, 143, 144, 145, 149, 150, 158, 203, 219, 228}
+length of the superset: 72
+Superset 2: {67, 12, 16, 149, 150, 23, 90, 29, 30, 35, 228, 318, 63}
+length of the superset: 13
+Superset 3: {149, 150}
+length of the superset: 2
+Superset 4: {95}
+length of the superset: 1
+Superset 5: {16}
+length of the superset: 1
+Cluster 1: 177 sets
+Cluster 2: 5 sets
+Cluster 3: 1 sets
+Cluster 4: 1 sets
+Cluster 5: 1 sets
+Cluster 1: 2056 urls
+Cluster 2: 15 urls
+Cluster 3: 1 urls
+Cluster 4: 6 urls
+Cluster 5: 1 urls
+Cluster 1 standard deviation: 13.7
+Cluster 2 standard deviation: 0.6
+Cluster 3 standard deviation: 0.0
+Cluster 4 standard deviation: 0.0
+Cluster 5 standard deviation: 0.0
+Cluster 1: Max syscalls to add to any set: 21.32% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 2: Max syscalls to add to any set: 1.50% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 3: Max syscalls to add to any set: 0.00% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 4: Max syscalls to add to any set: 0.00% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 5: Max syscalls to add to any set: 0.00% of total syscalls, Max of sensitive syscalls: 0.00% of sensitive syscalls
+Cluster 0: 21.97 urls
+Cluster 1: 0.16 urls
+Cluster 2: 0.01 urls
+Cluster 3: 0.06 urls
+Cluster 4: 0.01 urls
+Superset 1:  Length of the superset: 72 and the percentage : 30.63 
+Superset 2:  Length of the superset: 13 and the percentage : 12.91 
+Superset 3:  Length of the superset: 2 and the percentage : 9.61 
+Superset 4:  Length of the superset: 1 and the percentage : 9.31 
+Superset 5:  Length of the superset: 1 and the percentage : 9.31 
+Cluster:4494
+Cluster URL Percentage: 48.01
+Cluster:2787
+Cluster URL Percentage: 29.78
+Cluster:2056
+Cluster URL Percentage: 21.97
+Cluster:15
+Cluster URL Percentage: 0.16
+Cluster:1
+Cluster URL Percentage: 0.01
+Cluster:6
+Cluster URL Percentage: 0.06
+Cluster:1
+Cluster URL Percentage: 0.01
+{0: {9, 10, 41, 42, 43, 49, 56, 25, 90, 59}, 1: {9, 10, 25}, 2: {9, 10, 105, 41, 42, 43, 49, 50, 56, 25, 90, 59}, 3: {9, 10, 90, 25}, 4: {9, 10, 25}, 5: {9, 10, 25}, 6: {9, 10, 25}}
+Security Metric for Cluster 0(SN%): 50.0
+Cluster 0 SP%: 75.98
+Security Metric for Cluster 1(SN%): 85.0
+Cluster 1 SP%: 90.99
+Security Metric for Cluster 2(SN%): 40.0
+Cluster 2 SP%: 69.37
+Security Metric for Cluster 3(SN%): 80.0
+Cluster 3 SP%: 87.09
+Security Metric for Cluster 4(SN%): 85.0
+Cluster 4 SP%: 90.39
+Security Metric for Cluster 5(SN%): 85.0
+Cluster 5 SP%: 90.69
+Security Metric for Cluster 6(SN%): 85.0
+Cluster 6 SP%: 90.69
+STATISTICS FOR THE SYSFILTER
+SP% 62.46
+SN% 30.0

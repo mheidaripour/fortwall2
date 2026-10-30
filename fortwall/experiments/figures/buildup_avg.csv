@@ -1,0 +1,6 @@
+stage,n_pools,SP%,ASP%,dSP%,dSN%
+saphire-per-script,2698.2,83.28,16.72,0.0,0.0
+exact-categories,73.0,83.28,16.72,0.0,0.0
+cluster-all@k*,7.0,81.11,18.89,18.74,38.0
+full-method@k*,7.0,81.83,18.17,19.4,41.0
+single-pool,1.0,69.61,30.39,21.38,45.0

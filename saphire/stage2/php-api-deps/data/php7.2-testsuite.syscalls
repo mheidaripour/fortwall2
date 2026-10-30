@@ -1,0 +1,1751 @@
+var_dump: close fstat getpid munmap sendto write 
+basename: close fstat futex mmap openat write 
+file_put_contents: brk close dup fstat getcwd getpid lseek lstat madvise mmap munmap openat read readlink stat unlink write 
+file_get_contents: access bind brk close connect dup fcntl fstat futex getcwd getpid getsockname getsockopt getuid ioctl lseek lstat madvise mmap mprotect munmap openat poll read readlink recvfrom recvmsg sendmmsg sendto socket stat uname write 
+file_exists: access close fstat getcwd getpid lseek lstat mmap munmap openat read readlink stat unlink write 
+imagecreatefrompng: brk close fcntl fstat lseek lstat madvise mmap munmap openat read write 
+fopen: close connect dup fcntl fstat futex getcwd getpid getsockopt lseek lstat mmap munmap openat poll prlimit64 read readlink sendto socket stat write 
+array_intersect_uassoc: write 
+fclose: brk close fstat getcwd getpid lseek lstat mmap munmap openat poll read recvfrom unlink write 
+php_strip_whitespace: close fstat getcwd lstat mmap munmap openat write 
+unlink: close fstat getcwd getpid lseek lstat mmap munmap openat read readlink stat unlink write 
+mkdir: close fstat getcwd getpid lseek lstat mkdir mmap munmap openat read readlink stat unlink write 
+getcwd: getcwd write 
+chdir: chdir getcwd lstat write 
+DOMDocument::loadXML: brk close fstat getcwd lseek lstat mmap munmap openat read stat write 
+date_sunrise: write 
+fwrite: brk fcntl getcwd getpid lseek lstat madvise mmap munmap openat poll sendto write 
+chmod: chmod getcwd lstat write 
+fread: fcntl fstat lseek madvise mmap munmap poll read recvfrom write 
+fprintf: write 
+rewind: lseek write 
+fscanf: read write 
+SQLite3::__construct: brk fstat getcwd getpid lseek lstat openat read readlink stat write 
+SQLite3::loadExtension: getcwd lstat write 
+ctype_xdigit: write 
+atan2: write 
+MySession::create_sid: getrandom stat 
+MySession::read: fcntl flock fstat getuid openat pread64 
+ob_end_flush: close fstat futex mmap mprotect openat read stat write 
+session_write_close: close ftruncate munmap pwrite64 utime write 
+MySession::write: pwrite64 
+MySession::close: close 
+print_r: write 
+header: write 
+str_repeat: close madvise mmap munmap write 
+iconv_substr: brk close fstat futex mmap mprotect munmap openat read stat write 
+mysqli_connect: brk close connect futex getpid openat read recvfrom sendto setsockopt shutdown socket stat 
+array_fill_keys: write 
+stream_socket_server: bind close fstat futex listen openat read setsockopt socket 
+stream_socket_client: brk close connect fcntl fstat futex getpid getsockopt getuid lstat openat poll read socket stat write 
+stream_socket_accept: accept access brk clone close connect fcntl fstat futex getdents getegid geteuid getgid getpid getuid lseek lstat mmap mprotect munmap openat poll read recvfrom socket uname unlink write 
+feof: fcntl poll recvfrom sendto write 
+stream_select: fcntl getsockopt poll select sendto write 
+printf: write 
+imagepng: brk close fstat lseek lstat openat write 
+glob: close fstat futex getcwd getdents lstat mmap openat readlink stat write 
+preg_match: brk mmap write 
+Phar::__construct: close fstat getcwd getdents getpid lseek lstat madvise mmap munmap openat read stat unlink write 
+DirectoryIterator::__construct: close fstat futex getdents lseek lstat mmap openat read stat write 
+RegexIterator::__construct: brk mmap 
+Phar::buildFromIterator: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+RegexIterator::rewind: getdents lseek 
+strcasecmp: write 
+IteratorIterator::rewind: write 
+IteratorIterator::__construct: write 
+umask: umask write 
+fileperms: getcwd lstat stat write 
+rmdir: close fstat getcwd getpid lseek lstat mmap munmap openat read rmdir stat unlink write 
+openlog: connect socket write 
+syslog: getpid sendto write 
+closelog: close write 
+touch: access close getcwd lstat openat readlink utime write 
+array_key_exists: write 
+ReflectionProperty::getDocComment: write 
+Phar::webPhar: chdir close fstat lseek munmap openat read setitimer write 
+SQLite3::exec: close getpid openat read write 
+SQLite3Stmt::paramCount: write 
+copy: brk close dup fstat getcwd lseek lstat mmap munmap openat read readlink stat write 
+date_parse: write 
+array_filter: write 
+PharFileInfo::setMetadata: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+PDO::__construct: brk close connect fstat futex getpid lseek lstat openat read recvfrom sendto setsockopt shutdown socket stat 
+xml_set_end_namespace_decl_handler: write 
+SQLite3::close: close fstat stat write 
+tempnam: close fstat futex getcwd getpid lstat mmap openat readlink write 
+openssl_pkcs7_encrypt: close fstat futex getpid getuid lseek openat poll read write 
+openssl_x509_read: close fstat openat read write 
+openssl_pkcs7_decrypt: close fstat getpid openat read write 
+time_sleep_until: nanosleep write 
+pcntl_alarm: alarm write 
+tmpfile: getcwd getpid lstat openat 
+pcntl_fork: clone 
+stream_copy_to_stream: close connect fcntl fstat getsockopt lseek mmap munmap poll read recvfrom sendto socket write 
+fseek: lseek write 
+stream_get_contents: close fstat lseek openat poll read recvfrom stat write 
+posix_kill: kill rt_sigreturn wait4 write 
+pcntl_waitpid: wait4 
+ldap_connect: access brk close connect fstat futex getdents getegid geteuid getgid getuid mmap mprotect munmap openat read socket stat uname write 
+ldap_bind: bind close connect fcntl fstat futex getsockname openat read recvmsg sendto setsockopt shutdown socket stat 
+ctype_graph: write 
+func_get_arg: write 
+is_executable: access getcwd getgid getgroups getuid lstat write 
+is_dir: getcwd lstat readlink stat write 
+is_writable: access getcwd getgid getgroups getuid lstat write 
+debug_print_backtrace: write 
+timezone_name_get: write 
+ZipArchive::open: brk close fstat getcwd lseek lstat openat read stat write 
+ZipArchive::addGlob: access brk close fstat futex getdents lstat mmap openat stat 
+ZipArchive::close: brk chmod close fcntl fstat getpid lseek openat read rename stat umask unlink write 
+curl_setopt: fcntl fstat getcwd ioctl lseek lstat readlink write 
+curl_exec: brk clone close connect fcntl fstat getpeername getsockname getsockopt mmap mprotect openat poll read recvfrom rt_sigaction sendto setsockopt socket write 
+curl_close: rt_sigaction 
+get_cfg_var: write 
+getmyuid: stat 
+is_readable: access getcwd getgid getgroups getuid lstat write 
+opendir: accept bind brk close connect fcntl fstat futex getcwd getsockname getsockopt lseek lstat openat poll read recvmsg sendto socket stat uname write 
+readdir: getdents write 
+closedir: close poll recvfrom write 
+IntlTimeZone::getUnknown: write 
+intltz_get_unknown: write 
+session_start: close fcntl flock fstat getcwd getdents getpid getrandom getuid lstat openat pread64 stat unlink write 
+session_regenerate_id: close fcntl flock fstat getrandom getuid openat pwrite64 stat unlink 
+set_time_limit: setitimer 
+microtime: rt_sigaction rt_sigprocmask rt_sigreturn setitimer write 
+Phar::offsetSet: close fstat getcwd getpid lseek lstat madvise mmap munmap openat read unlink write 
+Phar::stopBuffering: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+Phar::getStub: lseek read 
+Phar::convertToExecutable: close fstat getcwd getpid lseek lstat madvise mmap munmap openat read stat unlink write 
+proc_open: clone close dup fcntl fstat pipe write 
+usleep: nanosleep restart_syscall write 
+proc_get_status: wait4 
+fsockopen: bind close connect fcntl fstat futex getsockname getsockopt openat poll read recvmsg sendto socket stat uname write 
+proc_terminate: kill 
+imagechar: write 
+Phar::setAlias: close fstat getcwd getpid lseek lstat madvise mmap munmap openat read unlink write 
+Phar::addEmptyDir: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+PharFileInfo::isExecutable: getgid getgroups getuid 
+PharFileInfo::chmod: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+PharFileInfo::isReadable: getgid getgroups getuid 
+curl_multi_setopt: write 
+posix_getuid: getuid write 
+imagegammacorrect: write 
+ReflectionMethod::getDocComment: write 
+iconv_mime_decode_headers: brk close fstat futex mmap mprotect openat read write 
+exif_read_data: close fstat futex getcwd lseek lstat mmap openat read stat write 
+imagecolorallocate: write 
+filesize: getcwd lstat stat write 
+stat: getcwd lstat stat write 
+sleep: nanosleep restart_syscall write 
+property_exists: write 
+cos: write 
+var_export: write 
+mb_strtolower: write 
+mb_stripos: write 
+symlink: getcwd lstat readlink symlink write 
+lchown: lchown write 
+fileowner: getcwd lstat stat write 
+xml_error_string: write 
+SplObjectStorage::addAll: write 
+SQLite3::prepare: write 
+RecursiveDirectoryIterator::__construct: brk close fstat getdents lseek lstat openat read stat 
+RecursiveDirectoryIterator::isFile: stat 
+RecursiveDirectoryIterator::hasChildren: lstat stat 
+RecursiveDirectoryIterator::next: getdents 
+in_array: write 
+array_rand: getpid write 
+filter_var: brk mmap munmap write 
+SplPriorityQueue::insert: write 
+getmypid: getpid 
+escapeshellarg: close fstat futex mmap munmap openat write 
+PharData::__construct: close fstat getcwd getpid lseek lstat mmap munmap openat read stat unlink write 
+PharData::addFromString: close fstat getcwd getpid lseek lstat mmap munmap openat unlink write 
+PharData::compress: close fstat getcwd getpid lseek lstat mmap munmap openat read stat unlink write 
+preg_split: mmap write 
+proc_nice: getpriority setpriority write 
+strncasecmp: write 
+filectime: getcwd lstat stat write 
+password_needs_rehash: write 
+Phar::setStub: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+IntlTimeZone::getDisplayName: brk readlink stat write 
+str_split: write 
+unserialize: close madvise mmap munmap write 
+array_unshift: write 
+IntlCalendar::createInstance: readlink stat write 
+imagefilter: write 
+mb_strpos: write 
+rand: getpid write 
+ftp_connect: accept clone poll write 
+fputs: fcntl sendto write 
+ftp_login: poll recvfrom 
+ftp_append: poll recvfrom 
+ftp_close: fcntl poll read recvfrom 
+openssl_seal: close fstat futex getpid getuid openat poll read write 
+gmp_strval: write 
+array_uintersect_uassoc: write 
+PDOStatement::debugDumpParams: write 
+SplFileObject::__construct: fstat getcwd lseek lstat openat read stat 
+rewinddir: lseek write 
+convert_uuencode: write 
+convert_uudecode: write 
+get_extension_funcs: write 
+stream_filter_remove: write 
+mail: clone close fcntl fstat futex lseek lstat mmap openat pipe2 stat wait4 write 
+assert: close munmap write 
+is_null: write 
+getrusage: getrusage write 
+session_decode: close unlink write 
+get_defined_constants: write 
+Closure::call: write 
+str_pad: write 
+MyHeap::insert: write 
+posix_ttyname: ioctl write 
+dir: close fstat getcwd lstat openat write 
+Collator::sortWithSortKeys: madvise mmap munmap 
+IntlGregorianCalendar::isEquivalentTo: write 
+intlcal_is_equivalent_to: write 
+iconv: brk close fstat futex mmap mprotect openat read stat write 
+stream_set_timeout: write 
+filetype: getcwd lstat write 
+fileatime: getcwd lstat stat write 
+wddx_serialize_value: write 
+imagecolormatch: write 
+session_commit: close pwrite64 
+session_destroy: access close unlink 
+get_resource_type: write 
+get_loaded_extensions: write 
+get_declared_interfaces: write 
+setlocale: brk close fstat futex mmap openat read write 
+md5: write 
+Phar::mapPhar: close fstat lseek openat read write 
+realpath: brk getcwd lstat madvise mmap munmap readlink write 
+fputcsv: write 
+SplFileObject::fgetcsv: close fstat futex mmap openat read write 
+array_shift: write 
+ob_get_length: write 
+readlink: getcwd lstat readlink write 
+mb_parse_str: write 
+strval: write 
+fgets: fcntl poll read recvfrom write 
+link: getcwd link lstat readlink write 
+PDO::exec: close getpid openat read write 
+array_map: write 
+array_diff_assoc: write 
+array_chunk: write 
+ReflectionMethod::invoke: write 
+ReflectionMethod::invokeArgs: write 
+ftok: stat write 
+msg_get_queue: msgget 
+msg_send: msgsnd write 
+msg_receive: msgrcv write 
+msg_remove_queue: msgctl 
+preg_last_error: write 
+set_exception_handler: write 
+imagegd: close fcntl fstat getcwd getpid lseek lstat openat read unlink write 
+imagegd2: brk close fcntl fstat getcwd getpid lseek lstat openat read unlink write 
+imagecreatefromgd: close fcntl fstat lseek lstat openat read write 
+imagecreatefromgd2: close fcntl fstat lseek lstat openat read write 
+DateTimeZone::getOffset: write 
+SimpleXMLElement::__construct: brk 
+array_diff_key: write 
+parse_ini_file: close fstat getcwd lstat mmap munmap openat write 
+gmp_nextprime: write 
+vfprintf: write 
+IntlGregorianCalendar::setTimeZone: write 
+intlcal_set_time_zone: write 
+parse_str: write 
+pspell_new: access brk close fstat getdents lseek mmap openat read stat 
+SplPriorityQueue::extract: write 
+readfile: close dup fstat getcwd lseek lstat mmap munmap openat read readlink write 
+preg_replace: close mmap munmap write 
+proc_close: close wait4 
+linkinfo: getcwd lstat write 
+is_link: getcwd lstat write 
+putenv: close fstat lseek openat read stat write 
+mb_strlen: write 
+Transliterator::create: brk write 
+transliterator_transliterate: brk write 
+Transliterator::transliterate: brk write 
+SplFileInfo::openFile: fstat lseek openat read stat 
+PharFileInfo::__construct: close fstat lseek lstat openat read stat 
+SplFileObject::seek: lseek read write 
+SplFileObject::rewind: lseek write 
+SplFileObject::current: close fstat futex lseek mmap openat read write 
+dns_check_record: write 
+phpcredits: write 
+date_timezone_set: write 
+pathinfo: close fstat futex mmap openat write 
+ob_start: close fstat munmap write 
+array_udiff_assoc: write 
+xml_parse_into_struct: write 
+posix_getgid: getgid write 
+lchgrp: lchown 
+filegroup: getcwd lstat stat write 
+mime_content_type: close fstat getcwd lseek lstat mmap openat read write 
+gmmktime: write 
+gmdate: write 
+imagecreatefromgif: close fcntl fstat lseek lstat openat read write 
+get_class_vars: write 
+dgettext: close fstat mmap openat write 
+SplFileObject::fputcsv: write 
+XMLReader::XML: getcwd write 
+PharFileInfo::getContent: fstat getcwd getpid lseek lstat madvise mmap munmap openat read write 
+PDODatabaseX::__construct: brk 
+PDODatabaseX::prepare: write 
+PDOStatementX::execute: close getpid openat read 
+Phar::buildFromDirectory: write 
+addslashes: write 
+openssl_x509_export_to_file: close fstat openat read write 
+iterator_apply: write 
+gmp_pow: write 
+ftruncate: close ftruncate munmap write 
+hash_update: write 
+token_get_all: write 
+Bar::__construct: brk 
+getservbyport: close fstat openat read write 
+fnmatch: close fstat futex mmap openat write 
+gzfile: close dup fstat getcwd lseek lstat openat read write 
+array_uintersect_assoc: write 
+Phar::offsetGet: write 
+MyFile::__construct: lseek read 
+array_search: write 
+debug_zval_dump: write 
+xml_set_external_entity_ref_handler: write 
+openssl_x509_check_private_key: close fstat openat read 
+str_shuffle: getpid write 
+libxml_set_external_entity_loader: write 
+DOMDocument::validate: close fstat lseek lstat openat read stat write 
+gzopen: close dup fstat getcwd lseek lstat openat write 
+gzread: read write 
+gzclose: brk close write 
+DOMDocument::load: brk close connect dup fcntl fstat lseek lstat openat poll read socket stat write 
+DOMDocument::schemaValidateSource: write 
+mb_strrichr: write 
+define: write 
+date_format: write 
+fgetss: read write 
+ReflectionObject::isInstance: write 
+imageloadfont: close fstat getcwd lseek lstat openat read write 
+next: write 
+mb_strrchr: write 
+sin: write 
+spl_autoload_call: close fstat getcwd lstat mmap munmap openat write 
+get_defined_functions: write 
+gmp_div_r: write 
+each: write 
+class_alias: close munmap write 
+vprintf: write 
+fgetc: read write 
+xml_set_element_handler: write 
+ReflectionClass::getName: write 
+intlgregcal_create_instance: readlink stat write 
+Generator::next: write 
+posix_getpid: getpid write 
+posix_getsid: getsid write 
+strcspn: write 
+end: write 
+is_file: getcwd lstat stat write 
+MyRegexIterator::__construct: mmap 
+inflate_init: write 
+rename: close fstat getcwd getpid lseek lstat mmap munmap openat read rename stat unlink write 
+mb_substr_count: write 
+convert_cyr_string: write 
+SplFixedArray::key: write 
+posix_setgid: setgid write 
+gmp_fact: write 
+DateTime::modify: write 
+ZipArchive::getStream: brk fstat lseek openat read stat 
+strrev: write 
+xml_parse: write 
+IntlGregorianCalendar::isLenient: write 
+intlcal_is_lenient: write 
+Generator::throw: write 
+php_uname: uname write 
+mt_rand: getpid write 
+finfo::buffer: brk mmap 
+array_fill: madvise mmap munmap write 
+imagefilledpolygon: write 
+IntlDateFormatter::formatObject: brk write 
+Phar::compressFiles: close fstat getcwd getpid lseek lstat madvise mmap munmap openat read unlink write 
+Phar::decompressFiles: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+Phar::unlinkArchive: close fstat lseek lstat openat read unlink write 
+posix_getrlimit: prlimit64 
+strcmp: write 
+openssl_x509_parse: close fstat munmap openat read stat write 
+class_exists: write 
+phpinfo: uname write 
+stream_set_blocking: fcntl getsockopt poll sendto write 
+SplObjectStorage::unserialize: madvise mmap write 
+log: write 
+Phar::loadPhar: close fstat getcwd lseek lstat openat read write 
+imagecreatefromgd2part: close fcntl fstat lseek openat read write 
+ReflectionClass::__construct: write 
+imagecopymerge: write 
+openssl_pkey_new: brk close fstat futex getegid geteuid getgid getpid getuid openat poll read write 
+openssl_csr_new: close fstat futex getegid geteuid getgid getpid getuid openat poll read write 
+openssl_csr_export: write 
+posix_setuid: setuid write 
+DOMDocument::saveHTMLFile: close fstat lseek lstat openat write 
+array_pad: write 
+imagecolorallocatealpha: write 
+posix_geteuid: geteuid write 
+iconv_strpos: close fstat futex mmap mprotect openat read stat write 
+call_user_func:{/home/vagrant/php-src/Zend/tests/call_user_func_006.php:16}: write 
+preg_replace_callback: mmap write 
+gmp_random: getpid write 
+MyFile::fgets: lseek read 
+MyFile::fseek: lseek 
+MyFile::rewind: lseek 
+strrchr: write 
+Phar::copy: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+stristr: write 
+ftp_nb_get: poll recvfrom write 
+SplDoublyLinkedList::add: write 
+lstat: getcwd lstat write 
+DOMDocument::loadHTMLFile: close fstat lseek lstat openat read stat write 
+parse_url: write 
+xmlwriter_open_uri: fstat getcwd lseek lstat openat stat write 
+trim: madvise mmap write 
+iconv_mime_decode: brk close fstat futex mmap mprotect munmap openat read stat write 
+imagecreatefromxbm: close fcntl fstat lseek lstat openat read write 
+RecursiveDirectoryIterator::rewind: getdents lseek 
+file: close dup fstat getcwd lseek lstat openat read readlink write 
+imagepalettetotruecolor: write 
+hash_update_file: close fstat lseek lstat openat read 
+XMLReader::read: brk close fstat lseek lstat openat read stat write 
+XMLReader::open: fstat lseek lstat openat read stat write 
+XMLReader::close: close 
+constant: write 
+XMLWriter::openUri: fstat getcwd lseek lstat openat stat 
+XMLWriter::flush: write 
+asort: write 
+wddx_serialize_vars: write 
+gzwrite: brk write 
+gzseek: lseek write 
+gzpassthru: read write 
+date_sun_info: write 
+mb_internal_encoding: write 
+fstat: fstat write 
+preg_match_all: brk mmap write 
+urldecode: write 
+serialize: madvise mmap write 
+xml_set_default_handler: write 
+uasort: write 
+date_interval_create_from_date_string: write 
+xml_set_processing_instruction_handler: write 
+ftp_put: poll recvfrom write 
+imagecreatefromwbmp: close fcntl fstat lseek lstat openat read write 
+imageellipse: write 
+prev: write 
+xml_set_character_data_handler: write 
+foo::__construct: brk 
+array_reduce: write 
+DOMDocument::loadHTML: write 
+stream_filter_append: close fstat futex madvise mmap mprotect munmap openat read stat write 
+ftp_nb_fget: poll recvfrom write 
+shuffle: getpid write 
+log10: write 
+preg_replace_callback_array: mmap write 
+SplFileObject::getBasename: close fstat futex mmap openat 
+trait_exists: write 
+intlcal_get_available_locales: write 
+IntlCalendar::getAvailableLocales: mmap write 
+SplHeap2::isEmpty: write 
+Transliterator::createInverse: brk write 
+array_udiff_uassoc: write 
+decoct: write 
+stream_socket_enable_crypto: brk close fcntl fstat futex getpid getuid lstat openat poll read write 
+openssl_pkey_export_to_file: close fstat getpid openat read write 
+openssl_pkey_export: close fstat futex getpid getuid openat poll read 
+openssl_pkey_get_public: close fstat lstat openat read write 
+openssl_private_encrypt: close fstat futex getpid getuid openat poll read write 
+openssl_private_decrypt: close fstat futex getpid getuid openat poll read write 
+openssl_public_encrypt: close fstat futex getpid getuid openat poll read write 
+openssl_public_decrypt: close fstat openat read write 
+openssl_x509_checkpurpose: close fstat openat read stat 
+openssl_csr_get_subject: close fstat openat read 
+IntlGregorianCalendar::roll: write 
+intlcal_roll: write 
+PDO::sqliteCreateAggregate: write 
+highlight_file: close fstat getcwd lstat mmap munmap openat write 
+openssl_pkcs7_verify: close fstat openat read stat write 
+mbereg_search_init: write 
+intlcal_create_instance: readlink stat write 
+IntlDateFormatter::__construct: brk readlink stat 
+posix_mkfifo: mknod write 
+popen: clone close fcntl pipe2 write 
+stream_get_meta_data: fcntl write 
+pclose: close wait4 write 
+fpassthru: fstat lseek mmap munmap read write 
+getservbyname: close fstat openat read write 
+fileinode: getcwd lstat stat write 
+imagegif: close fstat lseek lstat openat write 
+date_isodate_set: write 
+SplFileInfo::getInode: stat 
+strpos: write 
+time_nanosleep: nanosleep write 
+imagefilltoborder: write 
+MyHeap::isEmpty: write 
+fgetcsv: close fstat futex mmap openat read write 
+SplFileObject::fread: read write 
+SplFixedArray::offsetGet: write 
+gzinflate: write 
+ReflectionObject::isSubclassOf: write 
+hex2bin: write 
+SplDoublyLinkedList::offsetGet: write 
+SplFileObject::setCsvControl: write 
+xml_parser_free: write 
+asin: write 
+curl_init: brk 
+hash_file: close fstat getcwd lseek lstat openat read write 
+gethostbyname: access close connect fstat futex ioctl mmap mprotect munmap openat poll read recvfrom sendto socket stat uname write 
+get_included_files: write 
+zip_open: fstat lseek lstat openat read stat write 
+zip_read: brk lseek read 
+zip_entry_read: lseek 
+zip_close: close write 
+ctype_print: write 
+preg_filter: mmap 
+DirectoryIterator::getInode: stat 
+IntlTimeZone::createEnumeration: brk write 
+exif_imagetype: close fstat getcwd lseek lstat openat read write 
+ReflectionClass::getParentClass: write 
+SplMaxHeap::extract: write 
+mb_substr: write 
+IntlBreakIterator::createWordInstance: write 
+IntlBreakIterator::createSentenceInstance: write 
+IntlBreakIterator::createCharacterInstance: write 
+IntlBreakIterator::createTitleInstance: write 
+IntlBreakIterator::createLineInstance: write 
+array_walk_recursive: write 
+array_walk: write 
+decbin: write 
+ReflectionFunction::getClosure: write 
+wordwrap: write 
+DOMCdataSection::deleteData: write 
+IntlGregorianCalendar::getGregorianChange: write 
+intlgregcal_get_gregorian_change: write 
+SplMinHeap::top: write 
+mb_encode_mimeheader: write 
+stream_supports_lock: write 
+gettimeofday: write 
+metaphone: write 
+ob_flush: write 
+Closure::bindTo: write 
+imagetruecolortopalette: write 
+substr: write 
+array_diff: write 
+date_time_set: write 
+sizeof: write 
+spl_object_hash: getpid madvise mmap write 
+IntlGregorianCalendar::__construct: readlink stat 
+ReflectionObject::getConstructor: write 
+bzopen: brk fcntl getcwd lseek lstat mmap openat write 
+is_uploaded_file: write 
+Phar::setSignatureAlgorithm: close fstat futex getcwd getpid getuid lseek lstat mmap munmap openat poll read unlink write 
+IntlTimeZone::getCanonicalID: write 
+ftp_fget: poll recvfrom write 
+array_intersect_key: write 
+finfo::file: brk close fstat getcwd lseek lstat mmap munmap openat read 
+get_object_vars: write 
+ReflectionClass::getDefaultProperties: write 
+ReflectionClass::getStaticProperties: write 
+get_parent_class: write 
+ldap_list: write 
+ftp_raw: fcntl poll read recvfrom write 
+stripos: write 
+preg_grep: mmap write 
+ob_clean: write 
+gmp_div_qr: write 
+posix_getppid: getppid write 
+ReflectionClass::getInterfaces: write 
+highlight_string: write 
+chunk_split: write 
+PDODatabase::__construct: brk 
+PDODatabase::exec: close getpid openat read 
+PDODatabase::prepare: write 
+ceil: write 
+ReflectionMethod::isFinal: write 
+ReflectionMethod::isAbstract: write 
+ReflectionMethod::isPrivate: write 
+ReflectionMethod::isProtected: write 
+ReflectionMethod::isPublic: write 
+ReflectionMethod::isStatic: write 
+ReflectionMethod::isConstructor: write 
+ReflectionMethod::isDestructor: write 
+ReflectionMethod::getModifiers: write 
+ReflectionMethod::isInternal: write 
+ReflectionMethod::isUserDefined: write 
+ReflectionMethod::getFileName: write 
+ReflectionMethod::getStartLine: write 
+ReflectionMethod::getEndLine: write 
+ReflectionMethod::getStaticVariables: write 
+ReflectionMethod::getName: write 
+gethostbynamel: close connect fstat futex openat read socket stat uname write 
+get_browser: brk mmap write 
+hash_pbkdf2: write 
+IntlRuleBasedBreakIterator::__construct: brk mmap munmap 
+IntlRuleBasedBreakIterator::setText: write 
+xml_parser_set_option: write 
+gmp_com: write 
+gmp_jacobi: write 
+md5_file: close fstat getcwd lseek lstat openat read write 
+finfo_open: access brk close fstat getcwd getdents lseek lstat madvise mmap munmap openat read stat write 
+finfo_file: brk close fstat futex getcwd lseek lstat madvise mmap munmap openat read stat write 
+session_create_id: getrandom 
+ldap_first_attribute: write 
+iconv_set_encoding: write 
+imagealphablending: write 
+openssl_decrypt: write 
+array_uintersect: write 
+ReflectionClass::implementsInterface: write 
+Generator::rewind: close munmap write 
+timezone_offset_get: write 
+date_sunset: write 
+stream_socket_pair: socketpair 
+curl_multi_exec: clone close connect fcntl fstat futex getpeername getsockname getsockopt mmap mprotect openat poll read recvfrom rt_sigaction sendto setsockopt socket write 
+curl_multi_getcontent: write 
+curl_multi_close: rt_sigaction 
+NumberFormatter::__construct: brk 
+xmlwriter_end_document: write 
+PharData::offsetSet: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+PharData::setSignatureAlgorithm: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+PharData::convertToData: close fstat getcwd getpid lseek lstat mmap munmap openat read stat unlink write 
+array_combine: write 
+localtime: write 
+dns_get_record: close connect fstat futex openat poll read recvfrom sendto socket stat uname write 
+atanh: write 
+date_timestamp_set: write 
+gmp_init: write 
+MyAppendIterator::append: write 
+MyAppendIterator::rewind: write 
+MyAppendIterator::next: write 
+imagebmp: close fcntl fstat lseek openat read write 
+date: brk close fstat getdents lseek mmap munmap openat read stat write 
+imagejpeg: close fstat lseek lstat openat write 
+IntlCalendar::fromDateTime: write 
+intlcal_from_date_time: write 
+ReflectionClass::getConstructor: write 
+IntlTimeZone::createTimeZone: write 
+SplObjectStorage::setInfo: write 
+round: write 
+imageinterlace: write 
+timezone_transitions_get: write 
+IntlGregorianCalendar::getWeekendTransition: write 
+intlcal_get_weekend_transition: write 
+sha1: write 
+get_magic_quotes_gpc: write 
+MessageFormatter::format: brk write 
+openssl_pkcs7_sign: close fstat futex getpid getuid lseek openat poll read write 
+gztell: write 
+curl_multi_init: brk write 
+gmp_testbit: write 
+pcntl_wait: wait4 
+xml_get_current_byte_index: write 
+stripslashes: write 
+clearstatcache: write 
+IntlTimeZone::getErrorCode: write 
+ftell: write 
+array_change_key_case: write 
+date_modify: write 
+gmp_xor: write 
+readgzfile: close dup fstat getcwd lseek lstat openat read write 
+mb_ereg: write 
+explode: write 
+MessageFormatter::__construct: brk readlink stat 
+checkdate: write 
+SplFixedArray::current: write 
+imagecolordeallocate: write 
+openssl_pkey_get_private: close fstat openat read 
+openssl_spki_new: brk close fstat futex getpid getuid openat poll read write 
+ReflectionObject::getConstants: write 
+stream_get_line: madvise mmap munmap poll read recvfrom sendto write 
+is_resource: write 
+ldap_parse_result: write 
+is_bool: write 
+call_user_func:{/home/vagrant/php-src/Zend/tests/ns_031.php:14}: write 
+call_user_func:{/home/vagrant/php-src/Zend/tests/ns_031.php:15}: write 
+is_nan: write 
+SessionHandler::create_sid: getrandom stat write 
+SessionHandler::read: fcntl flock fstat getuid openat pread64 write 
+SessionHandler::write: pwrite64 write 
+SessionHandler::close: close 
+ZipArchive::addFile: access getcwd lstat stat 
+ftp_ssl_connect: accept access close connect fstat futex ioctl mmap mprotect munmap openat poll read recvfrom sendmmsg socket stat uname write 
+grapheme_strpos: brk 
+posix_seteuid: setresuid write 
+PharData::decompress: close fstat getcwd getpid lseek lstat mmap munmap openat stat unlink write 
+get_meta_tags: close fstat lseek lstat openat read 
+date_date_set: write 
+xml_set_object: write 
+ini_get_all: write 
+strspn: write 
+posix_getgrgid: access close connect fstat lseek mmap mprotect munmap openat read rt_sigprocmask socket write 
+stripcslashes: write 
+read_exif_data: close fstat futex lseek lstat mmap openat read stat 
+openssl_csr_sign: close fstat getpid openat read write 
+substr_count: write 
+substr_compare: write 
+strrpos: write 
+strripos: write 
+Directory::read: getdents write 
+Directory::rewind: lseek write 
+Directory::close: close write 
+ob_get_contents: write 
+gmp_scan0: write 
+getlastmod: stat 
+getmyinode: stat 
+getmygid: stat 
+is_subclass_of: write 
+IntlGregorianCalendar::getFirstDayOfWeek: write 
+intlcal_get_first_day_of_week: write 
+strftime: write 
+image_type_to_mime_type: write 
+iconv_strlen: close fstat futex mmap mprotect openat read stat write 
+gzgets: read write 
+gmp_intval: write 
+SplFileObject::getCurrentLine: read 
+acosh: write 
+MyRecursiveIteratorIterator::rewind: write 
+MyRecursiveIteratorIterator::valid: write 
+ZipArchive::statIndex: stat 
+set_file_buffer: write 
+timezone_name_from_abbr: write 
+gc_collect_cycles: write 
+wddx_deserialize: mmap munmap write 
+SplFileInfo::getPerms: stat 
+PDOStatement::fetchAll: write 
+str_rot13: write 
+ReflectionProperty::isDefault: write 
+posix_uname: uname write 
+error_reporting: close munmap write 
+xmlwriter_write_dtd: write 
+finfo::finfo: access brk close fstat lseek lstat madvise mmap munmap openat read stat 
+PharData::delMetadata: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+error_log: close fstat getcwd lseek lstat openat readlink write 
+PharFileInfo::decompress: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+openssl_encrypt: write 
+join: write 
+inet_pton: write 
+inet_ntop: write 
+stream_socket_shutdown: shutdown 
+curl_multi_add_handle: write 
+tan: write 
+SplDoublyLinkedList::top: write 
+mb_strtoupper: write 
+imagecreatetruecolor: madvise mmap munmap write 
+array_push: write 
+date_default_timezone_set: write 
+ZipArchive::getFromIndex: brk lseek 
+ZipArchive::getFromName: lseek 
+array_reverse: write 
+exp: write 
+range: madvise mmap munmap write 
+Phar::convertToData: close fstat getcwd getpid lseek lstat madvise mmap munmap openat read stat unlink write 
+pow: write 
+DOMDocument::relaxNGValidate: close fstat lseek lstat openat read stat write 
+json_decode: write 
+ini_set: getcwd lstat readlink write 
+password_verify: write 
+array_unique: write 
+DOMCdataSection::insertData: write 
+max: write 
+array_intersect_assoc: write 
+posix_times: times write 
+scandir: close fstat getcwd getdents lstat openat write 
+parse_ini_string: write 
+dl: write 
+Exception::getTraceAsString: write 
+Exception::__toString: write 
+Exception::getTrace: write 
+Exception::getLine: write 
+Exception::getFile: write 
+Exception::getMessage: write 
+Exception::getCode: write 
+stream_isatty: ioctl write 
+ArrayObject::exchangeArray: write 
+quotemeta: write 
+transliterator_get_error_code: write 
+Transliterator::getErrorCode: write 
+gmp_perfect_square: write 
+posix_initgroups: write 
+disk_total_space: statfs write 
+sort: write 
+NoRewindIteratorEx::valid: write 
+NoRewindIteratorEx::current: write 
+NoRewindIteratorEx::next: write 
+SplDoublyLinkedList::offsetExists: write 
+SplPriorityQueue::top: write 
+RecursiveIteratorIterator::getSubIterator: write 
+array_merge_recursive: write 
+gmp_popcount: write 
+gd_info: write 
+openssl_verify: close fstat openat read write 
+func_get_args: write 
+DateTime::setDate: write 
+natcasesort: write 
+PDOStatement::fetchObject: close munmap write 
+SQLite3::createAggregate: write 
+chop: write 
+disk_free_space: getcwd lstat statfs write 
+diskfreespace: statfs write 
+Phar::addFromString: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+IntlGregorianCalendar::toDateTime: write 
+intlcal_to_date_time: write 
+Phar::mount: getcwd lstat stat 
+Phar::extractTo: chmod close fstat lseek lstat mkdir openat read stat write 
+DOMDocument::save: close fstat getcwd lseek lstat openat write 
+IntlGregorianCalendar::getErrorCode: write 
+imagecreatefromstring: write 
+imageconvolution: write 
+date_timezone_get: write 
+IntlTimeZone::fromDateTimeZone: write 
+intltz_from_date_time_zone: write 
+nl2br: write 
+gmp_div_q: write 
+idn_to_ascii: write 
+IntlTimeZone::getGMT: write 
+IntlGregorianCalendar::getDayOfWeekType: write 
+intlcal_get_day_of_week_type: write 
+imagesavealpha: write 
+acos: write 
+ftp_systype: poll recvfrom 
+curl_copy_handle: brk 
+imagestringup: write 
+imagerectangle: write 
+log1p: write 
+bindtextdomain: getcwd lstat write 
+dcgettext: close fstat mmap openat read write 
+posix_getpwuid: access close connect fstat lseek mmap mprotect munmap openat read rt_sigprocmask socket write 
+quoted_printable_encode: write 
+is_writeable: access write 
+rtrim: write 
+xml_get_current_line_number: write 
+getrandmax: write 
+interface_exists: write 
+gethostbyaddr: close connect fstat futex openat read socket stat uname write 
+chown: write 
+IntlCodePointBreakIterator::getLastCodePoint: write 
+mb_stristr: write 
+PDO::query: close getpid openat read write 
+ob_get_flush: close fstat munmap write 
+nl_langinfo: write 
+unpack: write 
+imagestring: write 
+ucwords: write 
+xml_set_notation_decl_handler: write 
+rawurldecode: write 
+Database_SQL::__construct: brk 
+session_gc: close fstat getdents openat stat 
+iterator_to_array: write 
+SQLite3Stmt::clear: write 
+preg_quote: write 
+DOMCdataSection::replaceData: write 
+IntlRuleBasedBreakIterator::getLocale: write 
+Phar::addFile: brk close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+ReflectionMethod::getClosure: write 
+ltrim: write 
+SplDoublyLinkedList::bottom: write 
+DateTime::format: write 
+is_numeric: write 
+getdate: write 
+ReflectionClass::newInstance: write 
+ReflectionClass::newInstanceArgs: write 
+tanh: write 
+imageline: write 
+bcdiv: write 
+ftp_mkdir: poll recvfrom write 
+ftp_rmdir: poll recvfrom write 
+ftp_nlist: poll recvfrom write 
+ftp_rawlist: poll recvfrom write 
+ftp_pasv: write 
+ftp_nb_continue: write 
+ftp_fput: write 
+ftp_nb_fput: write 
+ftp_nb_put: write 
+ftp_size: poll recvfrom write 
+ftp_mdtm: poll recvfrom write 
+ftp_rename: write 
+ftp_site: write 
+ftp_set_option: write 
+ftp_get_option: write 
+ftp_mlsd: poll recvfrom write 
+IntlGregorianCalendar::add: write 
+intlcal_add: write 
+gmp_sqrt: write 
+ReflectionParameter::export: write 
+imagecreatefromxpm: brk close fcntl fstat lseek lstat openat read 
+imagecreatefromjpeg: brk close fcntl fstat lseek lstat openat read 
+finfo_buffer: mmap write 
+finfo_close: munmap write 
+dcngettext: close fstat openat read write 
+XMLReader::readOuterXml: read 
+mb_ereg_search_setpos: write 
+FilesystemIterator::__construct: close fstat getdents openat 
+GlobIterator::__construct: brk close fstat futex getdents mmap openat 
+str_getcsv: close fstat futex mmap openat 
+DateTime::setTime: write 
+EndIterationRecursiveIteratorIterator::valid: write 
+arsort: write 
+gmp_legendre: write 
+ReflectionClass::getStaticPropertyValue: write 
+array_merge: write 
+posix_getpgid: getpgid write 
+shm_attach: shmat shmget write 
+shm_remove: shmctl write 
+ldap_next_reference: write 
+exif_thumbnail: close fstat futex lseek lstat mmap openat read stat write 
+dirname: write 
+current: write 
+XMLWriter::endDocument: write 
+IntlRuleBasedBreakIterator::next: write 
+SplFixedArray::offsetExists: write 
+TestRegexIterator::__construct: mmap 
+strstr: write 
+pcntl_signal: rt_sigaction rt_sigprocmask write 
+SplFileObject::key: write 
+addcslashes: write 
+SplFileObject::fgetc: read 
+htmlentities: write 
+floatval: write 
+doubleval: write 
+SplFixedArray::fromArray: write 
+gmp_gcdext: write 
+PharData::extractTo: chmod close fstat getcwd lseek lstat mkdir openat read stat write 
+cosh: write 
+deg2rad: write 
+mb_send_mail: clone close fcntl fstat pipe2 wait4 write 
+ReflectionObject::isInstantiable: write 
+transliterator_list_ids: brk write 
+gmp_clrbit: write 
+rsort: write 
+array_values: write 
+xml_parser_create_ns: write 
+array_flip: write 
+min: write 
+png2wbmp: close openat write 
+str_ireplace: write 
+zip_entry_close: write 
+gmp_random_seed: getpid write 
+SQLite3::query: close getpid openat read write 
+ftp_get: poll recvfrom 
+DateTimeZone::getTransitions: write 
+function_exists: write 
+filter_has_var: write 
+TestRegexIterator::setPregFlags: write 
+ZipArchive::extractTo: brk close fstat futex lseek lstat mkdir mmap openat stat write 
+get_class_methods: write 
+strpbrk: write 
+PharFileInfo::compress: close fstat getcwd getpid lseek lstat madvise mmap munmap openat read unlink write 
+imagepolygon: write 
+idate: write 
+iconv_strrpos: close fstat futex mmap mprotect munmap openat read write 
+posix_getpgrp: getpgrp write 
+imagefttext: access brk close fcntl fstat mmap openat 
+bzcompress: brk mmap munmap write 
+bzdecompress: brk write 
+ReflectionClass::getProperties: write 
+PDOStatement::fetch: write 
+iconv_get_encoding: write 
+bcpow: write 
+mb_strrpos: write 
+fastcgi_finish_request: close recvfrom shutdown write 
+Phar::setDefaultStub: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+gzencode: write 
+Phar::delete: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+bcpowmod: write 
+imagecharup: write 
+abs: write 
+MySession6::create_sid: getrandom 
+socket_set_blocking: fcntl 
+SplPriorityQueue::count: write 
+SplFixedArray::offsetSet: write 
+ReflectionFunction::invoke: write 
+ReflectionProperty::getName: write 
+ReflectionProperty::isPrivate: write 
+ReflectionProperty::isProtected: write 
+ReflectionProperty::isPublic: write 
+ReflectionProperty::isStatic: write 
+ReflectionProperty::getModifiers: write 
+mb_strripos: write 
+mb_convert_encoding: write 
+mb_chr: write 
+SplFileObject::__toString: lseek read 
+pspell_suggest: brk 
+hypot: write 
+gmp_sub: write 
+DOMDocument::schemaValidate: close fstat lseek lstat openat read stat write 
+base64_decode: write 
+strtok: write 
+msg_queue_exists: msgget 
+gmp_gcd: write 
+assert_options: write 
+ezmlm_hash: write 
+bcsqrt: write 
+count: write 
+array_intersect: madvise mmap munmap rt_sigaction rt_sigprocmask rt_sigreturn setitimer write 
+htmlspecialchars: write 
+filter_input: write 
+mb_split: write 
+password_hash: getrandom write 
+bin2hex: write 
+ReflectionClass::isFinal: write 
+ReflectionClass::isInterface: write 
+ReflectionClass::isAbstract: write 
+ReflectionClass::getModifiers: write 
+is_float: write 
+is_double: write 
+is_real: write 
+mb_regex_encoding: write 
+SQLite3Stmt::reset: write 
+settype: write 
+bcsub: write 
+gmp_div: write 
+IntlGregorianCalendar::getMinimalDaysInFirstWeek: write 
+intlcal_get_minimal_days_in_first_week: write 
+str_word_count: write 
+pfsockopen: close connect fcntl poll recvfrom socket 
+mb_ereg_replace: write 
+pcntl_sigtimedwait: clone rt_sigtimedwait write 
+SplDoublyLinkedList::unshift: write 
+IntlBreakIterator::createCodePointInstance: write 
+libxml_set_streams_context: write 
+array_intersect_ukey: write 
+pcntl_sigprocmask: rt_sigprocmask write 
+InfiniteIterator::rewind: write 
+InfiniteIterator::next: write 
+mb_ord: write 
+SplFileInfo::getOwner: stat 
+test::__construct: brk 
+Generator::current: close munmap write 
+imagefill: madvise mmap munmap 
+SplFixedArray::count: write 
+unregister_tick_function: write 
+money_format: write 
+extract: write 
+MySession3::create_sid: getrandom stat 
+MySession3::read: fcntl flock fstat getuid openat pread64 
+MySession3::write: pwrite64 
+MySession3::close: close 
+MySession4::read: fcntl flock fstat getuid openat pread64 
+MySession4::write: pwrite64 
+MySession4::close: close 
+datefmt_create: brk readlink stat write 
+xml_get_error_code: write 
+SplDoublyLinkedList::isEmpty: write 
+SplObjectStorage::contains: write 
+ldap_sort: write 
+stream_socket_recvfrom: recvfrom 
+SplFileObject::hasChildren: write 
+ZipArchive::addPattern: access brk close fstat getdents lstat mmap openat stat 
+simplexml_load_file: close fstat lseek lstat openat read stat write 
+imagettftext: access close fcntl fstat mmap openat 
+ksort: write 
+cal_from_jd: write 
+posix_getcwd: getcwd write 
+sha1_file: close fstat getcwd lseek lstat openat read write 
+SplMaxHeap::insert: write 
+date_create: write 
+Locale::acceptFromHttp: brk write 
+MySession2::create_sid: getrandom 
+IntlDateFormatter::setTimeZone: write 
+datefmt_set_timezone: write 
+bcmul: write 
+Phar::compress: close fstat getcwd getpid lseek lstat madvise mmap munmap openat read stat unlink write 
+imagewbmp: close fstat lseek lstat openat write 
+IntlGregorianCalendar::isSet: write 
+intlcal_is_set: write 
+getimagesize: close fstat getcwd lseek lstat openat read write 
+my_exception::__toString: close munmap write 
+getmxrr: close connect fstat futex openat poll read recvfrom sendto socket stat uname 
+strncmp: write 
+get_declared_traits: write 
+XMLReader::setRelaxNGSchema: close fstat lseek lstat openat read stat write 
+Phar::offsetUnset: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+levenshtein: write 
+RecursiveTreeIterator::setPrefixPart: write 
+base_convert: close munmap write 
+vsprintf: write 
+imagexbm: close fstat getcwd lseek lstat openat write 
+Transliterator::createFromRules: write 
+gmp_import: write 
+uniqid: getpid write 
+array_keys: write 
+IntlGregorianCalendar::setGregorianChange: write 
+intlgregcal_set_gregorian_change: write 
+SplFileObject::fgets: lseek read write 
+ftp_alloc: poll recvfrom 
+ftp_cdup: poll recvfrom 
+ftp_chdir: poll recvfrom 
+ftp_chmod: poll recvfrom 
+ftp_delete: poll recvfrom 
+ftp_exec: poll recvfrom 
+ftp_pwd: poll recvfrom 
+ob_implicit_flush: write 
+implode: write 
+idn_to_utf8: write 
+gzgetss: read 
+ReflectionClass::getConstants: write 
+random_bytes: getrandom 
+SplFileObject::fwrite: write 
+get_headers: write 
+array_udiff: write 
+key: write 
+reset: write 
+Phar::decompress: close fstat getcwd getpid lseek lstat mmap munmap openat read stat unlink write 
+stream_context_set_option: write 
+strtoupper: write 
+DirectoryIterator::rewind: getdents lseek 
+DirectoryIterator::next: getdents 
+ldap_search: poll read write 
+SplDoublyLinkedList::count: write 
+openssl_sign: close fstat futex getpid getuid openat poll read write 
+DOMElement::appendChild: write 
+openssl_pkcs12_read: futex 
+SQLite3::openBlob: write 
+DateTime::setISODate: write 
+SplFixedArray::offsetUnset: write 
+hexdec: close munmap write 
+krsort: write 
+flock: flock write 
+sem_get: semctl semget semop 
+sem_acquire: nanosleep semop 
+sem_release: semop 
+sem_remove: semctl 
+IntlGregorianCalendar::setTime: write 
+intlcal_set_time: write 
+recode_file: close fcntl fstat lseek openat read write 
+mb_substitute_character: write 
+octdec: close munmap write 
+SQLite3::lastInsertRowID: write 
+DirectoryIterator::getGroup: stat 
+gmp_divexact: write 
+strlen: write 
+pcntl_signal_dispatch: rt_sigprocmask write 
+mt_srand: getpid write 
+pspell_new_config: access brk close fstat getdents lseek mmap openat read stat write 
+pspell_check: write 
+SplFileInfo::getGroup: stat 
+filter_id: write 
+IntlTimeZone::getEquivalentID: write 
+http_build_query: write 
+openssl_open: close fstat getpid openat read write 
+set_error_handler: write 
+MySession7::create_sid: getrandom stat 
+MySession7::read: fcntl flock fstat getuid openat 
+MySession7::write: pwrite64 
+MySession7::close: close 
+ReflectionObject::__construct: write 
+array_product: write 
+is_finite: write 
+date_offset_get: write 
+substr_replace: write 
+locale_accept_from_http: write 
+rad2deg: write 
+method_exists: write 
+filemtime: getcwd lstat stat write 
+DOMCdataSection::appendData: write 
+IntlRuleBasedBreakIterator::getPartsIterator: write 
+PharData::addEmptyDir: close fstat getcwd getpid lseek lstat mmap munmap openat unlink write 
+ord: write 
+PDO::getAvailableDrivers: write 
+pdo_drivers: write 
+gmp_neg: write 
+IntlGregorianCalendar::getTimeZone: write 
+intlcal_get_time_zone: write 
+array_diff_uassoc: write 
+stream_context_create: write 
+MessageFormatter::parseMessage: brk 
+bindec: close munmap write 
+array_sum: write 
+random_int: getrandom 
+utf8_decode: write 
+MyCachingIterator::offsetSet: write 
+MyCachingIterator::offsetUnset: write 
+PharData::convertToExecutable: close fstat getcwd getpid lseek lstat mmap munmap openat read stat unlink write 
+IntlGregorianCalendar::isWeekend: write 
+intlcal_is_weekend: write 
+SQLite3Result::numColumns: write 
+inflate_add: write 
+get_html_translation_table: write 
+sqrt: write 
+gmp_random_range: getpid write 
+forward_static_call: write 
+Bug66405::__construct: fstat getdents openat 
+Bug66405::rewind: getdents lseek 
+Bug66405::hasChildren: lstat stat 
+Bug66405::next: getdents 
+json_last_error_msg: write 
+IntlGregorianCalendar::isLeapYear: write 
+intlgregcal_is_leap_year: write 
+DOMElement::C14NFile: close fstat lseek lstat openat write 
+ctype_space: write 
+array_diff_ukey: write 
+hash_hmac: write 
+array_pop: write 
+SplFileObject::setMaxLineLen: write 
+mktime: write 
+imageftbbox: access close fcntl fstat mmap openat 
+curl_share_setopt: write 
+array_count_values: write 
+SQLite3Result::fetchArray: write 
+json_encode: write 
+IntlTimeZone::createDefault: readlink stat write 
+IteratorIterator::next: write 
+PDO::prepare: write 
+hash_hkdf: write 
+LimitIterator::rewind: write 
+LimitIterator::next: write 
+ob_get_level: write 
+xml_set_start_namespace_decl_handler: write 
+mt_getrandmax: write 
+pcntl_sigwaitinfo: rt_sigtimedwait write 
+SplDoublyLinkedList::offsetSet: write 
+XMLReader::setSchema: close fstat lseek lstat openat read stat 
+gmp_random_bits: getpid write 
+IntlGregorianCalendar::setSkippedWallTimeOption: write 
+IntlGregorianCalendar::setRepeatedWallTimeOption: write 
+intlcal_set_skipped_wall_time_option: write 
+intlcal_set_repeated_wall_time_option: write 
+mydt::format: write 
+ldap_first_reference: write 
+stream_set_write_buffer: write 
+sscanf: write 
+simplexml_load_string: write 
+array_slice: write 
+ucfirst: write 
+chr: write 
+srand: getpid write 
+SplMaxHeap::count: write 
+shm_get_var: write 
+atan: write 
+gmp_abs: write 
+IntlGregorianCalendar::set: write 
+intlcal_set: write 
+ldap_next_entry: write 
+IntlDateFormatter::parse: brk 
+array_splice: write 
+cal_info: write 
+sinh: write 
+asinh: write 
+IntlTimeZone::getDSTSavings: write 
+timezone_open: write 
+SkipsFirstElementRecursiveIteratorIterator::rewind: write 
+DateTimeZone::getName: write 
+posix_ctermid: write 
+gmp_scan1: write 
+SplDoublyLinkedList::shift: write 
+PDO::setAttribute: write 
+ldap_get_dn: write 
+imagecreatefrombmp: close fcntl fstat lseek lstat openat read 
+ldap_explode_dn: write 
+crypt: getrandom write 
+ctype_lower: write 
+bcmod: write 
+DOMElement::insertBefore: write 
+htmlspecialchars_decode: write 
+IntlTimeZone::toDateTimeZone: write 
+intltz_to_date_time_zone: write 
+xml_get_current_column_number: write 
+NumberFormatter::format: write 
+count_chars: write 
+DirectoryIterator::isFile: stat 
+DirectoryIterator::getBasename: close fstat futex mmap openat write 
+A::__construct: brk fstat getpid lseek lstat openat read readlink stat 
+IntlTimeZone::getErrorMessage: write 
+PharFileInfo::isCompressed: write 
+posix_getegid: getegid 
+posix_setegid: setresgid 
+SplPriorityQueue::setExtractFlags: write 
+quoted_printable_decode: write 
+NumberFormatter::parseCurrency: brk 
+checkdnsrr: close connect fstat futex openat poll read recvfrom sendto socket stat uname write 
+uksort: write 
+DOMDocument::xinclude: close dup fstat getcwd lseek lstat openat read stat 
+SimpleXMLElement::addAttribute: write 
+ReflectionObject::getName: write 
+ReflectionClass::getMethods: write 
+timezone_identifiers_list: write 
+stream_socket_sendto: access close connect fstat futex ioctl mmap mprotect munmap openat poll read recvfrom sendmmsg sendto socket stat uname write 
+ArrayObject::setIteratorClass: write 
+SplFixedArray::rewind: write 
+gmp_hamdist: write 
+strip_tags: write 
+curl_version: write 
+UConverter::getAvailable: write 
+CustomReadHandler::read: fcntl flock fstat getuid openat pread64 
+CustomReadHandler::write: close fcntl flock fstat getuid openat pwrite64 
+CustomReadHandler::close: close 
+RecursiveArrayIteratorIterator::rewind: write 
+spl_autoload: close fstat getcwd lstat mmap munmap openat write 
+IntlGregorianCalendar::get: write 
+IntlGregorianCalendar::getActualMaximum: write 
+IntlGregorianCalendar::getActualMinimum: write 
+imagelayereffect: write 
+finfo_set_flags: write 
+finfo::set_flags: write 
+DirectoryIterator::getExtension: close fstat futex mmap openat 
+dechex: write 
+sprintf: write 
+mb_decode_mimeheader: write 
+SplDoublyLinkedList::pop: write 
+SplFileObject::fpassthru: fstat lseek mmap munmap write 
+IntlGregorianCalendar::equals: write 
+hebrevc: write 
+base64_encode: write 
+fmod: write 
+ReflectionClass::getFileName: write 
+ReflectionClass::getStartLine: write 
+ReflectionClass::getEndLine: write 
+session_module_name: close munmap write 
+gzuncompress: write 
+hebrev: write 
+IntlGregorianCalendar::fieldDifference: write 
+strnatcasecmp: write 
+IntlTimeZone::getRawOffset: write 
+ReflectionClass::hasConstant: write 
+IntlGregorianCalendar::getType: write 
+intlcal_get_type: write 
+gettype: write 
+usort: write 
+ArrayObjectGetSet::offsetGet: write 
+ldap_error: write 
+cal_days_in_month: write 
+shm_put_var: write 
+ldap_dn2ufn: write 
+gmp_sign: write 
+SessionHandler::open: write 
+dngettext: close fstat mmap openat read write 
+gettext: close fstat futex mmap mprotect openat read write 
+ngettext: close fstat mmap openat read write 
+textdomain: write 
+ArrayIterator::unserialize: write 
+SessionHandler::gc: write 
+ip2long: write 
+ftp_quit: close 
+ReflectionProperty::setValue: write 
+intlcal_get_keyword_values_for_locale: write 
+IntlCalendar::getKeywordValuesForLocale: write 
+mbereg_replace: write 
+MyCachingIterator::offsetExists: write 
+MyCachingIterator::offsetGet: write 
+get_magic_quotes_runtime: write 
+SplFileInfo::isFile: stat 
+SessionHandler::destroy: close unlink 
+gzrewind: lseek write 
+ctype_alnum: write 
+is_infinite: write 
+urlencode: write 
+date_sub: write 
+ReflectionProperty::export: write 
+strtr: write 
+SplObjectStorage::removeAll: write 
+get_include_path: write 
+xml_set_unparsed_entity_decl_handler: write 
+SplFixedArray::setSize: close munmap write 
+SplFileInfo::getExtension: close fstat futex mmap openat 
+strtolower: write 
+openssl_pkcs12_export_to_file: close fstat futex getpid getuid openat poll read write 
+ldap_errno: write 
+DateTime::setTimezone: write 
+is_object: write 
+iptcembed: close fstat openat read 
+DateTime::getOffset: write 
+imageistruecolor: write 
+move_uploaded_file: chmod rename umask write 
+ResourceBundle::__construct: close mmap openat stat 
+ReflectionClass::getDocComment: write 
+bzread: brk fstat mmap read write 
+bzclose: close fstat munmap write 
+bzerror: write 
+bzerrstr: write 
+bzerrno: write 
+B::getTimestamp: write 
+shm_detach: shmdt write 
+gmstrftime: write 
+posix_isatty: ioctl 
+MenuOutput::__construct: write 
+DOMDocument::relaxNGValidateSource: write 
+xml_parser_get_option: write 
+error_get_last: write 
+ldap_mod_replace: close connect fcntl setsockopt shutdown socket write 
+ldap_modify_batch: close connect fcntl setsockopt shutdown socket write 
+mb_strstr: write 
+ctype_punct: write 
+jpeg2wbmp: close openat write 
+call_user_func:{/home/vagrant/php-src/Zend/tests/call_user_func_009.php:5}: write 
+imageaffinematrixget: write 
+posix_mknod: mknod 
+transliterator_create: brk 
+intlcal_get_now: write 
+IntlCalendar::getNow: write 
+stream_socket_get_name: getpeername getsockname 
+IntlRuleBasedBreakIterator::getText: write 
+ReflectionClass::isUserDefined: write 
+gzcompress: write 
+SplFileObject::fseek: write 
+DOMDocument::createEntityReference: write 
+class_parents: write 
+class_implements: write 
+XMLWriter::endElement: write 
+gmp_invert: write 
+sys_getloadavg: close openat read write 
+ReflectionObject::getConstant: write 
+IntlDateFormatter::getTimeZone: write 
+datefmt_get_timezone: write 
+ob_end_clean: write 
+IntlTimeZone::getRegion: write 
+GlobIterator::getATime: stat 
+GlobIterator::getCTime: stat 
+GlobIterator::getGroup: stat 
+GlobIterator::getInode: stat 
+GlobIterator::getMTime: stat 
+GlobIterator::getOwner: stat 
+GlobIterator::getPerms: stat 
+GlobIterator::getSize: stat 
+GlobIterator::getType: lstat 
+GlobIterator::isDir: stat 
+GlobIterator::isExecutable: access 
+GlobIterator::isFile: stat 
+GlobIterator::isLink: lstat 
+GlobIterator::isReadable: access 
+GlobIterator::isWritable: access 
+utf8_encode: write 
+get_class: write 
+iconv_mime_encode: brk close fstat futex mmap mprotect openat read stat write 
+imagefilledarc: write 
+posix_strerror: write 
+getprotobyname: close fstat openat read write 
+ldap_set_option: write 
+hash_hmac_file: close fstat lseek lstat openat read write 
+IntlGregorianCalendar::getLocale: write 
+intlcal_get_locale: write 
+SimpleXMLElement::addChild: write 
+posix_getgroups: getgroups 
+session_abort: close 
+SplFixedArray::next: write 
+MyDateTime::format: write 
+timezone_location_get: write 
+floor: write 
+openssl_csr_export_to_file: close fstat openat write 
+SQLite3::changes: write 
+ReflectionObject::isUserDefined: write 
+deflate_add: write 
+gmp_cmp: write 
+SplDoublyLinkedList::setIteratorMode: write 
+hash: write 
+gmp_sqrtrem: write 
+is_string: write 
+get_current_user: access close connect fstat lseek mmap mprotect munmap openat read socket stat write 
+SplMaxHeap::recoverFromCorruption: write 
+strtotime: write 
+SplFileObject::ftruncate: ftruncate write 
+SQLite3Result::reset: write 
+SplDoublyLinkedList::getIteratorMode: write 
+ReflectionClass::getConstant: write 
+similar_text: write 
+strnatcmp: write 
+gmp_and: write 
+soundex: write 
+DirectoryIterator::getOwner: stat 
+Phar::isFileFormat: write 
+PDO::sqliteCreateFunction: write 
+str_replace: write 
+ctype_upper: write 
+SplFileObject::getFlags: write 
+strcoll: write 
+ctype_cntrl: write 
+ResourceBundle::getLocales: close mmap openat stat 
+lcg_value: getpid 
+imagesetthickness: write 
+MyRecursiveIteratorIterator::next: write 
+ldap_count_entries: write 
+SQLite3::lastErrorMsg: write 
+IntlTimeZone::createTimeZoneIDEnumeration: brk write 
+iterator_count: write 
+posix_get_last_error: write 
+is_callable: write 
+session_set_save_handler: write 
+Phar::running: write 
+xml_parser_create: write 
+Generator::send: close munmap write 
+gmp_or: write 
+compact: write 
+RecursiveDirectoryIterator::current: madvise mmap munmap 
+restore_include_path: write 
+set_include_path: write 
+stream_set_chunk_size: write 
+MyCSVFile::fgetcsv: lseek read 
+MyCSVFile::rewind: lseek 
+MyCSVFile2::rewind: lseek 
+MyCSVFile2::current: write 
+MyCSVFile2::fgetcsv: lseek read 
+filter_list: write 
+long2ip: write 
+stream_context_set_params: write 
+SplMinHeap2::compare: write 
+SplPriorityQueue::compare: write 
+MyRecursiveRegexIterator::__construct: mmap 
+imageantialias: write 
+ldap_free_result: write 
+stream_filter_register: write 
+imagefontheight: write 
+imagecolorclosesthwb: write 
+is_a: write 
+DOMDocument::createAttribute: write 
+mb_ereg_search_init: write 
+mb_ereg_search_regs: write 
+fflush: brk write 
+ldap_parse_reference: write 
+PharFileInfo::isWritable: getgid getgroups getuid 
+Phar::isWritable: stat 
+PharData::isWritable: stat 
+SplFileInfo::isWritable: getgid getgroups getuid 
+SplFileInfo::isReadable: getgid getgroups getuid 
+SplFileInfo::isExecutable: getgid getgroups getuid 
+CachingIterator::setFlags: write 
+DOMDocumentFragment::appendXML: write 
+IntlTimeZone::getOffset: write 
+posix_access: getcwd 
+IntlTimeZone::useDaylightTime: write 
+ReflectionClass::hasProperty: write 
+intlcal_get: write 
+intlcal_get_actual_maximum: write 
+intlcal_get_actual_minimum: write 
+imagecolorstotal: write 
+MessageFormatter::formatMessage: brk 
+chgrp: write 
+flush: write 
+msgfmt_format_message: brk 
+posix_errno: write 
+stream_resolve_include_path: lstat write 
+ZipArchive::getCommentName: write 
+setcookie: write 
+gzeof: write 
+gmp_rootrem: write 
+TestFilter::rewind: write 
+TestHeap::extract: write 
+SplObjectStorage::removeAllExcept: write 
+DirectoryIterator::getRealPath: brk lstat 
+SplMaxHeap::isEmpty: write 
+call_user_func:{/home/vagrant/php-src/Zend/tests/call_user_func_001.php:22}: write 
+call_user_func:{/home/vagrant/php-src/Zend/tests/call_user_func_001.php:23}: write 
+gmp_export: write 
+jdmonthname: write 
+Phar::setMetadata: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+openssl_x509_export: close fstat openat read write 
+bind_textdomain_codeset: write 
+IntlGregorianCalendar::getSkippedWallTimeOption: write 
+IntlGregorianCalendar::getRepeatedWallTimeOption: write 
+intlcal_get_skipped_wall_time_option: write 
+intlcal_get_repeated_wall_time_option: write 
+spl_object_id: write 
+cal_to_jd: write 
+msgfmt_create: write 
+MessageFormatter::create: write 
+getprotobynumber: close fstat openat read write 
+SplFileObject::getChildren: write 
+hash_init: write 
+IntlGregorianCalendar::setMinimalDaysInFirstWeek: write 
+intlcal_set_minimal_days_in_first_week: write 
+ReflectionClass::isSubclassOf: write 
+ReflectionProperty::getDeclaringClass: write 
+IntlGregorianCalendar::getLeastMaximum: write 
+IntlGregorianCalendar::getMaximum: write 
+IntlGregorianCalendar::getGreatestMinimum: write 
+IntlGregorianCalendar::getMinimum: write 
+intlcal_get_least_maximum: write 
+intlcal_get_maximum: write 
+intlcal_get_greatest_minimum: write 
+intlcal_get_minimum: write 
+IntlTimeZone::getTZDataVersion: write 
+ldap_get_option: write 
+imagecolorresolvealpha: write 
+ReflectionClass::isIterateable: write 
+MyConverter::convert: write 
+imagecolorsforindex: write 
+SplObjectStorage::offsetGet: write 
+IntlGregorianCalendar::setFirstDayOfWeek: write 
+intlcal_set_first_day_of_week: write 
+password_get_info: write 
+exif_tagname: write 
+filter_var_array: write 
+IntlTimeZone::countEquivalentIDs: write 
+strptime: write 
+msg_set_queue: msgctl write 
+msg_stat_queue: msgctl write 
+escapeshellcmd: close fstat futex mmap munmap openat write 
+easter_date: write 
+expm1: write 
+rawurlencode: write 
+imagesetstyle: write 
+mb_check_encoding: write 
+func_num_args: write 
+ldap_get_entries: write 
+ReflectionClass::hasMethod: write 
+openssl_pkcs7_read: write 
+IntlRuleBasedBreakIterator::following: write 
+IntlRuleBasedBreakIterator::preceding: write 
+IntlRuleBasedBreakIterator::isBoundary: write 
+imagecrop: write 
+transliterator_get_error_message: write 
+Transliterator::getErrorMessage: write 
+xmlwriter_write_attribute_ns: write 
+hash_copy: write 
+is_scalar: write 
+gc_enable: mmap 
+imagearc: write 
+Phar::mungServer: write 
+Phar::createDefaultStub: write 
+Phar::canCompress: write 
+PharData::delete: write 
+Phar::offsetExists: write 
+PharData::offsetUnset: write 
+show_source: close fstat mmap munmap openat write 
+mb_ereg_match: write 
+IntlDateFormatter::format: brk 
+UConverter::__construct: write 
+SQLite3::version: write 
+openssl_pkcs12_export: close fstat futex getpid getuid openat poll read write 
+token_name: write 
+image_type_to_extension: write 
+Spoofchecker::setAllowedLocales: brk 
+number_format: write 
+ldap_rename: write 
+Phar::delMetadata: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+PharFileInfo::delMetadata: close fstat getcwd getpid lseek lstat mmap munmap openat read unlink write 
+DateTimeImmutable::createFromMutable: write 
+ctype_digit: write 
+_d::format: write 
+_t::getName: write 
+SQLite3::querySingle: write 
+array_multisort: write 
+openssl_x509_free: write 
+mbereg_search_pos: write 
+pspell_clear_session: write 
+LimitIterator::seek: write 
+class_uses: write 
+xmlwriter_set_indent_string: write 
+ldap_first_entry: write 
+session_reset: close fcntl flock fstat getuid openat pread64 
+mb_convert_variables: write 
+IntlTimeZone::getID: write 
+bcadd: write 
+stream_context_get_default: write 
+ob_get_clean: write 
+gmp_prob_prime: write 
+imagecropauto: write 
+SplObjectStorage::detach: write 
+lcfirst: write 
+SplObjectStorage::attach: madvise mmap munmap write 
+IntlGregorianCalendar::setLenient: write 
+intlcal_set_lenient: write 
+jdtojewish: write 
+ctype_alpha: write 
+ReflectionProperty::getValue: write 
+posix_setrlimit: prlimit64 
+ArrayObject::count: write 
+ArrayIterator::count: write 
+ReflectionClass::getProperty: write 
+get_declared_classes: write 
+imagefontwidth: write 
+array_column: write 
+SimpleXMLElement::xpath: write 
+IntlGregorianCalendar::after: write 
+IntlGregorianCalendar::before: write 
+intlcal_after: write 
+intlcal_before: write 
+ReflectionClass::getMethod: write 
+json_last_error: write 
+defined: write 
+call_user_func:{/home/vagrant/php-src/Zend/tests/bug69315.php:8}: write 
+openssl_get_privatekey: close fstat openat read 
+openssl_get_publickey: close fstat openat read 
+array_replace_recursive: write 
+ReflectionClass::isInstantiable: write 
+intlcal_field_difference: write 
+ReflectionClass::isInstance: write 
+Phar::rewind: getdents lseek 
+Phar::next: getdents 
+hash_equals: write 
+SQLite3::lastErrorCode: write 
+trigger_error: write 
+IntlGregorianCalendar::clear: write 
+intlcal_clear: write 
+ldap_err2str: write 
+IntlRuleBasedBreakIterator::first: write 
+IntlRuleBasedBreakIterator::last: write 
+IntlRuleBasedBreakIterator::previous: write 
+IntlRuleBasedBreakIterator::current: write 
+SplFixedArray::getSize: write 
+RecursiveIteratorIterator::setMaxDepth: write 
+books::load: close fstat lseek lstat openat read stat 
+gmp_setbit: write 
+numfmt_create: write 
+NumberFormatter::create: write 
+pspell_new_personal: access brk close fcntl fstat getdents lseek mmap munmap openat read stat write 
+pspell_save_wordlist: close fcntl fstat ftruncate lseek openat read write 
+gzgetc: write 
+xmlwriter_start_attribute: write 
+xmlwriter_flush: write 
+SplDoublyLinkedList::push: write 
+forward_static_call_array: write 
+date_default_timezone_get: write 
+PDOStatement::execute: fstat read 
+ReflectionObject::getFileName: write 
+ReflectionObject::getStartLine: write 
+ReflectionObject::getEndLine: write 
+gmp_powm: write 
+openssl_pkey_get_details: write 
+libxml_use_internal_errors: write 
+Closure::__invoke: write 
+SplFileObject::getMaxLineLen: write 
+ReflectionObject::isInternal: write 
+RegexIterator::setMode: write 
+gzputs: brk 
+ReflectionClass::isInternal: write 
+gzdeflate: write 
+TestRegexIterator::setFlags: write 
+DOMDocument::createComment: write 
+ldap_get_attributes: write 
+SplFileInfo::isLink: lstat 
+SplFileInfo::getLinkTarget: readlink 
+SplFileObject::isLink: lstat 
+IntlDateFormatter::getCalendarObject: write 
+datefmt_get_calendar_object: write 
+ReflectionClass::setStaticPropertyValue: write 
+curl_setopt_array: fcntl lseek 
+is_int: write 
+is_integer: write 
+is_long: write 
+is_array: write 
+ldap_read: write 
+gethostname: uname write 
+shm_remove_var: write 
+IntlGregorianCalendar::getTime: write 
+intlcal_get_time: write 
+deflate_init: write 
+openssl_random_pseudo_bytes: close fstat futex getpid getuid openat poll read 
+date_timestamp_get: write 
+key_exists: write 
+gmp_mod: write 
+IntlGregorianCalendar::getErrorMessage: write 
+SQLite3::enableExceptions: write 
+IntlGregorianCalendar::inDaylightTime: write 
+intlcal_in_daylight_time: write 
+get_defined_vars: write 
+register_shutdown_function: write 
+ReflectionExtension::info: write 
+ArrayObject::unserialize: write 
+mb_encoding_aliases: write 
+gmp_root: write 
+MyHeap::compare: write 
+openssl_x509_fingerprint: close fstat openat read write 
+Phar::isValidPharFilename: getcwd lstat stat write 
+DerivedStatement::fetchAll: write 
+exec: *
+pcntl_exec: *
+shell_exec: *
+system: *
+passthru: *
+eval: *

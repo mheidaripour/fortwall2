@@ -1,0 +1,7 @@
+http://localhost:8000/wp-admin/load-scripts.php,0.04339668154716492
+http://localhost:8000/wp-login.php,1.572196900844574
+http://localhost:8000/wp-comments-post.php,2.744200885295868
+http://localhost:8000/index.php,4.310102701187134
+http://localhost:8000/?cat=1,4.843305885791779
+http://localhost:8000/?p=1#comments,6.663892894983292
+http://localhost:8000/wp-admin,8.351189851760864

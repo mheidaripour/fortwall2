@@ -1,0 +1,13 @@
+--- a/defs.h
++++ b/defs.h
+@@ -63,6 +63,10 @@
+ #include "sysent.h"
+ #include "xmalloc.h"
+ 
++#define SHM_SIZE 8192
++#define SHM_CALLSTACK_SIZE 8188
++#define SHM_FORK_FLAG_OFFSET SHM_CALLSTACK_SIZE
++
+ #ifndef HAVE_STRERROR
+ const char *strerror(int);
+ #endif

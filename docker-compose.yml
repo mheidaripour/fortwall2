@@ -1,0 +1,42 @@
+# FortWall / Saphire lab environment.
+#
+#   docker compose build         # build the linux/amd64 image (emulated on M-series)
+#   docker compose up -d         # start the container (MariaDB comes up in entrypoint)
+#   docker compose exec lab bash # drop into a shell as user "paper"
+#
+# The container is x86_64 on purpose (see docker/Dockerfile). SYS_PTRACE +
+# unconfined seccomp are required: stage-1 tracing uses ptrace/strace, and the
+# stage-3 / FortWall enforcement installs its OWN seccomp filter from inside the
+# process -- the Docker-level seccomp profile must not pre-block those calls.
+services:
+  lab:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    platform: linux/amd64
+    image: fortwall-lab
+    container_name: fortwall-lab
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp=unconfined
+      - apparmor=unconfined
+    ports:
+      - "8000:80"     # experiment harness hits http://localhost:8000
+      - "9000:9000"   # php-fpm, if you want to reach it directly
+    volumes:
+      # Live-mount the source layers so host edits are visible immediately
+      # inside the container (no rebuild for Python / script changes). The image
+      # already COPYied them for a clean build; the mounts shadow those for dev.
+      - ./fortwall:/home/paper/fortwall
+      - ./artifacts:/home/paper/artifacts
+      - ./saphire:/home/paper/saphire
+      # Persist MariaDB + built PHP so you don't rebuild the world each restart.
+      - fortwall-mysql:/var/lib/mysql
+      - fortwall-phpopt:/opt/php-7.1
+    tty: true
+    stdin_open: true
+
+volumes:
+  fortwall-mysql:
+  fortwall-phpopt:

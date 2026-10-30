@@ -1,0 +1,8 @@
+URL,Average Response Time (sec)
+http://localhost:8000/wp-includes/SimplePie/Credit.php,0.0031877742211951087
+http://localhost:8000/wp-admin/includes/user.php,0.0037621982287871078
+http://localhost:8000/index.php,0.17096667327560447
+http://localhost:8000/wp-admin/admin-post.php,0.20243506246896975
+http://localhost:8000/wp-content/themes/Holding-Pattern-Theme/admin/upload-file.php,0.0036400036762853742
+http://localhost:8000/wp-content/plugins/wp-symposium/panel.php,0.004126654570201708
+http://localhost:8000/wp-includes/query.php,0.007856906934480939

@@ -1,0 +1,8 @@
+URL,DEF,NPL,PL
+http://localhost:8000/wp-content/plugins/wp-symposium/panel.php,31.361,32.687,4.255
+http://localhost:8000/wp-admin/includes/user.php,27.661,13.364,2.4
+http://localhost:8000/wp-includes/query.php,51.788,47.465,13.488
+http://localhost:8000/wp-admin/admin-post.php,993.446,467.652,464.486
+http://localhost:8000/wp-content/themes/Holding-Pattern-Theme/admin/upload-file.php,44.33,67.045,4.769
+http://localhost:8000/index.php,793.789,435.854,264.499
+http://localhost:8000/wp-includes/SimplePie/Credit.php,2.723,10.701,2.512
